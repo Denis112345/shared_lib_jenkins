@@ -1,5 +1,5 @@
 def call(String text, String colorCode = '0') {
-    return "\u001b[${code}m${text}\u001b[0m"
+    return "\u001b[${colorCode}m${text}\u001b[0m"
 }
 
 def error(String text) { call(text, '31') }
