@@ -1,5 +1,5 @@
 def call(String filePath) {
-    def content = libraryResources(filePath)
+    def content = libraryResource(filePath)
     ansiColor('xterm') {
         echo colorsLog.success(" Файл: ${filePath}")
         echo "──────────────────────────────"
